@@ -1,0 +1,1 @@
+Rationales published by the Eastern Cardano Council relating to decisions about the constitutionality of Cardano governance actions during the Interim Constitutional Committee period.
