@@ -54,29 +54,18 @@
   },
   "hashAlgorithm": "blake2b-256",
   "body": {
-    "summary": "",
-    "rationaleStatement": "",
+    "summary": "We have determined that this budget Info governance action is constitutional.",
+    "rationaleStatement": "Article IV, Section 2 of the Cardano Constitution states \"Cardano Blockchain budgets shall specify a process for overseeing use of funds from Cardano Blockchain treasury withdrawals including designating one or more administrators who shall be responsible for such oversight.\"\n\nThe governance action with ID \"gov_action1n5sn54mgf47a7men2ryq6ppx88kta4wvenz2qkl4f9v6ppje8easqxwm88m\" and title \"Cardano GovTool Budget - 12 months full active maintenance and development\", as a budget Info governance action, designates “Intersect” as the administrator responsible for overseeing the use of funds. It also specifies a process for overseeing the use of funds from the Cardano Blockchain treasury withdrawals using their smart contract framework.\n\nWe therefore find this governance action **Constitutional**.",
     "precedentDiscussion": "None",
-    "counterargumentDiscussion": "",
-    "conclusion": "",
+    "counterargumentDiscussion": "None",
+    "conclusion": "This governance action sufficiently fulfils the criteria specified for budgets in the Cardano Constitution, so is deemed constitutional.",
     "internalVote": {
-      "constitutional": 0,
+      "constitutional": 5,
       "unconstitutional": 0,
       "abstain": 0,
-      "didNotVote": 0
+      "didNotVote": 1
     },
-    "references": [
-      {
-        "@type": "relevantArticles",
-        "label": "Article III Section 5",
-        "uri": "https://constitution.gov.tools/en/interim-constitution#section-5"
-      },
-      {
-        "@type": "Other",
-        "label": "The versatility of the info governance action, CIP-1694",
-        "uri": "https://github.com/cardano-foundation/CIPs/tree/master/CIP-1694#the-versatility-of-the-info-governance-action"
-      }
-    ]
+    "references": []
   },
   "authors": [
     {
@@ -84,7 +73,7 @@
       "witness": {
         "witnessAlgorithm": "ed25519",
         "publicKey": "a12e0d6516828fd47afc70e2eccdfa11a4f4c76cb5eca55bdc9349865a70e4fe",
-        "signature": ""
+        "signature": "20886ff35a5fd28fb88f9f91cf97a559c4bf0c97bf33c73fc674fafef40232b5fad49b187df340319736917453737e758a4d30e5eb7102710a5a57e83ce18f06"
       }
     }
   ]
