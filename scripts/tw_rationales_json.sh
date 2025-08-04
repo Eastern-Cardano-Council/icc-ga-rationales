@@ -1,11 +1,17 @@
 #!/bin/bash
 
+# Check if a command-line argument is provided
+if [ -z "$1" ]; then
+  echo "Usage: $0 <file_path>"
+  exit 1
+fi
+
 # === Configurable Constants ===
 CURRENT_WITHDRAWAL_TOTAL=1500000
 NCL_AMOUNT=350000000
 
 # File paths
-DATA_FILE="./data/tw_batch1.json"
+DATA_FILE="$1"
 TEMPLATE_DIR="../templates"
 TEMPLATE_MD="tw-rationale.md"
 TEMPLATE_JSONLD="tw-rationale.jsonld"
