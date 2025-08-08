@@ -7,7 +7,7 @@ if [ -z "$1" ]; then
 fi
 
 # === Configurable Constants ===
-CURRENT_WITHDRAWAL_TOTAL=1500000
+CURRENT_WITHDRAWAL_TOTAL=169938176
 NCL_AMOUNT=350000000
 
 # File paths
